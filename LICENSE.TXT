@@ -2,4 +2,4 @@ All Rights Reserved
 
 This software and its source code are the exclusive property of Vincenzo Catrambone. No part of this software, including the source code, may be copied, modified, distributed, or reproduced in any form without the prior written permission of the owner.
 
-© Vincenzo Catrambone, 2024. All rights reserved.
+© Vincenzo Catrambone, 2024. All rights reserved. 
