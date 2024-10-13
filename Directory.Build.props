@@ -1,0 +1,21 @@
+<Project>
+  <!-- Includi le proprietà necessarie per StyleCop e SonarQube -->
+  <PropertyGroup>
+   <TargetFramework>net8.0</TargetFramework>
+    <StyleCopAnalyzersEnabled>true</StyleCopAnalyzersEnabled>
+    <StyleCopAnalyzersVersion>1.2.0-beta.435</StyleCopAnalyzersVersion>
+    <SonarAnalyzerVersion>9.32.0.97167</SonarAnalyzerVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="$(StyleCopAnalyzersVersion)" PrivateAssets="all" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="$(SonarAnalyzerVersion)" PrivateAssets="all" />
+  </ItemGroup>
+
+  <!-- Configurazioni StyleCop -->
+  <PropertyGroup Condition="'$(StyleCopAnalyzersEnabled)' == 'true'">
+      <EnableNETAnalyzers>true</EnableNETAnalyzers>
+      <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
