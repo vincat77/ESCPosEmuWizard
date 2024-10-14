@@ -1,6 +1,6 @@
 ﻿namespace ESCPosEmuWizard
 {
-  public static class EscPosCommands
+  public static class EscPosCommandsESC
   {
 
     /// <summary>
