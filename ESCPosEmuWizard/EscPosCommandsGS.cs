@@ -1,6 +1,4 @@
-﻿using ESCPosEmuWizard;
-
-namespace ESCPosEmuWizard
+﻿namespace ESCPosEmuWizard
 {
   internal static class EscPosCommandsGS
   {

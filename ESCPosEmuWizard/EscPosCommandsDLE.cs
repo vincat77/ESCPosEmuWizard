@@ -1,5 +1,4 @@
-﻿using ESCPosEmuWizard;
-namespace ESCPosEmuWizard
+﻿namespace ESCPosEmuWizard
 {
   internal static class EscPosCommandsDLE
   {
@@ -18,13 +17,13 @@ namespace ESCPosEmuWizard
     /// Clear Buffer - DLE DC4 8
     /// Clears the printer's buffer(s).
     /// </summary>
-    public static readonly byte[] DLE_ClearBuffer = new byte[] { EscPosMainCommands.DLE, 0x14, 0x08 };
+    public static readonly byte[] DLEClearBuffer = new byte[] { EscPosMainCommands.DLE, 0x14, 0x08 };
 
     /// <summary>
     /// Transmit Specified Status - DLE DC4 7
     /// Transmits the specified status in real time.
     /// </summary>
-    public static readonly byte[] DLE_TransmitSpecifiedStatus = new byte[] { EscPosMainCommands.DLE, 0x14, 0x07 };
+    public static readonly byte[] DLETransmitSpecifiedStatus = new byte[] { EscPosMainCommands.DLE, 0x14, 0x07 };
 
     /// <summary>
     /// Request printer status - DLE EOT 1

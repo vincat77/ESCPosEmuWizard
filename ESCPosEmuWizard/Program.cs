@@ -147,7 +147,7 @@ namespace ESCPosEmuWizard
       return i;
     }
 
-  
+
 
     private static string FormatText(char character, bool bold, bool underline, int alignment)
     {
