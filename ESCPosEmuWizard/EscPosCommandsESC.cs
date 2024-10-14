@@ -33,7 +33,11 @@
     /// </summary>
     public static readonly byte[] FormFeed = new byte[] { 0x0C };
 
-
+    /// <summary>
+    /// Line feed (advance paper by one line) - LF
+    /// Advances the paper by one line.
+    /// </summary>
+    public static readonly byte[] LineFeed = new byte[] { 0x0A };
 
 
     /// <summary>
@@ -42,11 +46,7 @@
     /// </summary>
     public static readonly byte[] InitializePrinter = new byte[] { EscPosMainCommands.ESC, 0x40 };
 
-    /// <summary>
-    /// Line feed (advance paper by one line) - LF
-    /// Advances the paper by one line.
-    /// </summary>
-    public static readonly byte[] LineFeed = new byte[] { 0x0A };
+
 
     /// <summary>
     /// Bold text on - ESC E 1
