@@ -8,7 +8,7 @@ public class UnitTest1
   [Fact]
   public void TestPrinterInitialization()
   {
-   // EscPosPrinterDriverHelpers.StartAsync();
+    Thread.Sleep(1000);
     // Arrange
     string printerIp = "127.0.0.1"; // Indirizzo IP della stampante
     int printerPort = 9100; // Porta della stampante
